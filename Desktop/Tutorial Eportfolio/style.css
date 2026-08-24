@@ -345,7 +345,7 @@ nav {
 }
 .project:hover .project__img {
   transform: scale(1.07);
-  filter: blur(5)
+  filter: blur(5px)
 }
 
 .project:hover .project__description {
