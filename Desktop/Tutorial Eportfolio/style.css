@@ -275,7 +275,7 @@ nav {
 .language {
   width: 25%;
   display: flex; 
-  flex-direction: center;
+  flex-direction: column;
   position: relative; 
 }
 
@@ -284,7 +284,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 25%;
-  padding: 25 16px;
+  padding: 25px 16px;
 }
 
 .language__list {
@@ -294,7 +294,7 @@ nav {
   flex-wrap: wrap;
 }
 
-.language__name {
+.Language__name {
   position: absolute;
   bottom: 0;
   transform: scale(0);
@@ -344,7 +344,7 @@ nav {
 }
 .project:hover .project__img {
   transform: scale(1.07);
-  filter: blut(5px)
+  filter: blur(5)
 }
 
 .project:hover .project__description {
@@ -377,7 +377,7 @@ nav {
 
 .project__description--link {
   font-size: 20px;
-  margin-right: 16ox;
+  margin-right: 16px;
   text-decoration: none;
 }
 
@@ -437,7 +437,7 @@ Footer {
   position: relative;
 }
 
-.footer--anchor:hover .footer__logo--popper {
+.footer__anchor:hover .footer__logo--popper {
   transform: translateX(60px);
   opacity: 1;
 }
