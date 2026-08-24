@@ -491,7 +491,7 @@ Footer {
     display: none;
   }
 
-  .projects__description--links {
+  .project__description--links {
     display: flex;
     justify-content: center;
   }
